@@ -1,0 +1,37 @@
+# === Metals/Scala language server ===
+.metals/
+.bloop/
+.metals.lock.db
+.metals.log
+
+# === Bloop build server logs ===
+.bloop/
+.bsp/
+
+# === VS Code settings ===
+.vscode/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+
+# === SBT ===
+target
+project/target/
+project/project/
+
+# === Scala Worksheet Cache ===
+*.worksheet.sc.md
+
+# === Logs and temporary files ===
+*.log
+*.tmp
+
+# === MacOS ===
+.DS_Store
+
+# === Windows ===
+Thumbs.db
+ehthumbs.db
+.metals/
